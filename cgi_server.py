@@ -14,7 +14,6 @@ Derived from Nick Zarczynski's blog post:
 https://pointlessprogramming.wordpress.com/2011/02/13/python-cgi-tutorial-1/
 """
 
-
 from http.server import BaseHTTPRequestHandler, HTTPServer, CGIHTTPRequestHandler
  
 Server = HTTPServer

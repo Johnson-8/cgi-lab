@@ -53,8 +53,8 @@ def secret_page(username=None, password=None):
     """
     Returns the HTML for the page visited after the user has logged-in.
     """
-    if username is None or password is None:
-        raise ValueError("You need to pass both username and password!")
+    # if username is None or password is None:
+    #     raise ValueError("You need to pass both username and password!")
 
     return _wrapper("""
     <h1> Welcome, {username}! </h1>

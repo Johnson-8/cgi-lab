@@ -1,0 +1,24 @@
+Q1:
+for env_key, env_value in os.environ.items():
+    print(env_key,env_value)
+
+Q2:
+"QUERY_STRING"
+
+Q3:
+"HTTP_USER_AGENT"
+
+Q4:
+Sent as HTTP form data
+
+Q5:
+Set-Cookie: KEY=VALUE
+
+Q6:
+"HTTP_COOKIE"
+
+Q7:
+Cookies store infomation about the client / user agent and allows for websites to better serve the user agent with information stored in the cookies.
+
+Q8:
+https://github.com/Johnson-8/cgi-lab
